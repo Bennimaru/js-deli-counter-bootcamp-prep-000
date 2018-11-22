@@ -5,6 +5,10 @@ function takeANumber(katzDeliLine, newname){
   var number = katzDeliLine.indexOf(newname)+1
   return "Welcome, "+ newname +". You are number "+ number + " in line."
 }
+function takeANumberAlt(katzDeliLine)
+  katzDeliLine.push(number)
+  var number = katzDeliLine.length;
+  return number;
 
 function nowServing(katzDeliLine){
   var name= katzDeliLine.shift()
